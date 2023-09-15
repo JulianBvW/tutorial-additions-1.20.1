@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "tutorial-additions",
+	"version": "${version}",
+	"name": "Tutorial Additions",
+	"description": "This is a tutorial mod for learning fabric modding.",
+	"authors": [
+		"bySmily"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/tutorial-additions/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.bysmily.tutorialadditions.TutorialAdditions"
+		],
+		"client": [
+			"net.bysmily.tutorialadditions.TutorialAdditionsClient"
+		],
+		"fabric-datagen": [
+			"net.bysmily.tutorialadditions.TutorialAdditionsDataGenerator"
+		]
+	},
+	"mixins": [
+		"tutorial-additions.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
