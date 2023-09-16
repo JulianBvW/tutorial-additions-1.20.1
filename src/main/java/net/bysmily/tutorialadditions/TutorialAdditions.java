@@ -1,5 +1,8 @@
 package net.bysmily.tutorialadditions;
 
+import net.bysmily.tutorialadditions.block.ModBlocks;
+import net.bysmily.tutorialadditions.item.ModItemGroups;
+import net.bysmily.tutorialadditions.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +14,9 @@ public class TutorialAdditions implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

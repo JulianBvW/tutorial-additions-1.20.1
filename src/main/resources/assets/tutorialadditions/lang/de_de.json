@@ -1,0 +1,14 @@
+{
+  "item.tutorialadditions.ruby": "Rubin",
+  "item.tutorialadditions.raw_ruby": "Roher Rubin",
+
+  "block.tutorialadditions.ruby_block": "Rubinblock",
+  "block.tutorialadditions.raw_ruby_block": "Roher Rubinblock",
+
+  "block.tutorialadditions.ruby_ore": "Rubinerz",
+  "block.tutorialadditions.deepslate_ruby_ore": "Tiefenschiefer-Rubinerz",
+  "block.tutorialadditions.nether_ruby_ore": "Netherrubinerz",
+  "block.tutorialadditions.end_stone_ruby_ore": "Endsteinrubinerz",
+
+  "itemgroup.ruby": "Rubin Tutorial Items"
+}

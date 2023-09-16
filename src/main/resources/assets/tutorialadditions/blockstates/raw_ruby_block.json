@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tutorialadditions:block/raw_ruby_block"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tutorialadditions:block/ruby_ore"
+    }
+  }
+}

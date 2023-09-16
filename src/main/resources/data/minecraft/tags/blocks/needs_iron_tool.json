@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialadditions:ruby_block",
+    "tutorialadditions:deepslate_ruby_ore",
+    "tutorialadditions:nether_ruby_ore"
+  ]
+}
